@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Screen 1</title>
+
+		<link rel="stylesheet" href="reveal.js-3.3.0/css/reveal.css">
+		<link rel="stylesheet" href="reveal.js-3.3.0/css/theme/black.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="reveal.js-3.3.0/lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js-3.3.0/css/print/pdf.css' : 'reveal.js-3.3.0/css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>Internet Video</h2>
+					<iframe width="1920"
+						height="1080"
+						src="https://www.youtube-nocookie.com/embed/-Mj9J2EG_Zw"
+						frameborder="0"
+						allowfullscreen>
+					</iframe>
+				</section>
+			</div>
+		</div>
+
+		<script src="reveal.js-3.3.0/lib/js/head.min.js"></script>
+		<script src="reveal.js-3.3.0/external-lib/jquery-2.2.4.min.js"></script>
+		<script src="reveal.js-3.3.0/js/reveal.js"></script>
+		<script src="reveal.js-3.3.0/js/helpers.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				progress: false,
+
+				//Size
+				width: 1920,
+				height: 1080,
+
+				//Multiplex Test
+				multiplex: {
+					secret: '14648924085933417446',
+					id: 'e6635a71fd811b80',
+					url: 'https://reveal-js-multiplex-ccjbegmaii.now.sh/'
+				},
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'https://cdn.socket.io/socket.io-1.3.5.js', async: true },
+					{ src: 'reveal.js-3.3.0/plugin/multiplex/client.js', async: true },
+        	{ src: 'reveal.js-3.3.0/plugin/multiplex/master.js', async: true },
+					{ src: 'reveal.js-3.3.0/plugin/markdown/marked.js' },
+					{ src: 'reveal.js-3.3.0/plugin/markdown/markdown.js' },
+					{ src: 'reveal.js-3.3.0/plugin/notes/notes.js', async: true },
+					{ src: 'reveal.js-3.3.0/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

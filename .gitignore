@@ -1,0 +1,13 @@
+.idea/
+*.iml
+*.iws
+*.eml
+reveal.js-3.3.0/out/
+.DS_Store
+.svn
+log/*.log
+reveal.js-3.3.0/tmp/**
+reveal.js-3.3.0/node_modules/
+.sass-cache
+reveal.js-3.3.0/css/reveal.min.css
+reveal.js-3.3.0/js/reveal.min.js
