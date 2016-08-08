@@ -1,2 +1,32 @@
-# dtn-demo
-A demo Reveal.js presentation for the DTN.
+# DTN Presentation Creator
+
+This document is to collect everything we have pertaining to making a web-based
+presentation creation platform for DTN (and other places) in one place. Add to
+this
+
+## Demo Presentation
+
+A demo of a synchronized Reveal.js presentation and a launcher can be found in
+the `gh-pages` branch. It isn't much, but it works.
+
+# Interesting Discoveries
+
+## Things We Cannot Do In a Normal Web Page
+
+* Move windows arbitrarily around the screen
+* Make another window go into fullscreen mode
+
+## Things We Can Do, But Only In a Chrome App
+
+* Arbitrarily spawn windows anywhere on the screen
+* Fullscreen other windows
+
+# Possible Tech Stack
+
+* Reveal.js - Javascript presentation library.
+* Ruby on Rails - Web application framework.
+
+# UI Designs
+
+We never got very far, but a few UI sketches were made early on the last time we
+tried. You can find them in `./media/sketches/`.
