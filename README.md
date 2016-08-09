@@ -1,8 +1,7 @@
 # DTN Presentation Creator
 
 This document is to collect everything we have pertaining to making a web-based
-presentation creation platform for DTN (and other places) in one place. Add to
-this
+presentation creation platform for DTN (and other places) in one place.
 
 ## Demo Presentation
 
